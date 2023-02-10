@@ -51,7 +51,7 @@ body {
   max-width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 15px;
 
   /* outline: 2px solid red; */
   /* background-color: #c5529b; */
@@ -94,6 +94,10 @@ body {
 }
 
 /* =============Header logo=============== */
+.page-header {
+  border-bottom: 1px solid var(--accent-color);
+}
+
 .header-logo {
   display: block;
   margin-right: 76px;
@@ -156,6 +160,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   opacity: ;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contacts .mail-link:hover,
@@ -177,6 +183,9 @@ body {
 /* =============Hero=============== */
 .hero {
   background-color: var(--dark-background-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
+  margin-bottom: 120px;
 }
 
 .hero .container {
@@ -188,7 +197,6 @@ body {
 
 .hero-title {
   margin-bottom: 48px;
-  /* padding-top: 188px; */
 
   color: var(--important-color);
   font-weight: 700;
@@ -198,7 +206,6 @@ body {
 }
 
 .hero-button {
-  /* margin-bottom: 188px; */
   min-width: 169px;
   height: 56px;
 
@@ -220,7 +227,6 @@ body {
 .section.no-padding {
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-bottom: 120px;
 }
 
 .section-title {
@@ -266,7 +272,6 @@ body {
 }
 
 .work-item {
-  /* width: calc((100% - 48px) / 3); */
   width: 360px;
   margin: 12px;
 }
@@ -296,18 +301,17 @@ section.section-team {
 
 .team-item .content {
   display: block;
-  border-radius: 0px 0px 4px 4px;
   max-width: 264px;
   padding-top: 32px;
   padding-bottom: 32px;
-
+  border-radius: 0px 0px 4px 4px;
   background-color: var(--important-color);
   text-align: center;
 }
 
 .team-list .title {
   color: var(--dark-background-color);
-  /* font-weight: 500; */
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
@@ -342,6 +346,10 @@ section.section-team {
 }
 
 /* =============Portfolio=============== */
+.container.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .button-filter {
   padding: 12px 24px;
 
@@ -393,18 +401,18 @@ section.section-team {
 
 .project-card-item .content {
   display: block;
-  border: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
   background-color: var(--important-color);
   max-width: 360px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 16px 32px;
   text-align: left;
 }
 
 .team-list .title {
   color: var(--dark-background-color);
-  /* font-weight: 500; */
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
