@@ -190,6 +190,7 @@ body {
 }
 
 .hero-title {
+  width: 494px;
   margin-bottom: 48px;
 
   color: var(--important-color);
